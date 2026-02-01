@@ -105,6 +105,25 @@ rss:
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
 
+    - id: "guangguang"
+      name: "微信-逛逛github"
+      url: "https://wechat2rss.bestblogs.dev/feed/38be32e5376d852c13d3383e4d7a757fd9a55ff6.xml"
+
+    - id: "not-die-bird"
+      name: "不死鸟"
+      url: "https://iui.su/feed/"
+      # max_age_days: 1               # 示例：只推送1天内的文章
+
+    - id: "tech-heart"
+      name: "机器之心"
+      url: "https://wechat2rss.xlab.app/feed/51e92aad2728acdd1fda7314be32b16639353001.xml"
+      # max_age_days: 1               # 示例：只推送1天内的文章
+
+
+
+
+
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
@@ -178,7 +197,7 @@ display:
     new_items: true                   # 新增热点区域（含热榜新增 + RSS 新增）
                                       # 注：热点词汇统计中的新增标记🆕不受此配置影响
 
-    rss: false                         # RSS 订阅区域
+    rss: true                         # RSS 订阅区域
                                       # 开启后将对 RSS 进行关键词分析并在通知中展示
                                       # 关闭后跳过分析，但独立展示区不受影响
 

@@ -122,7 +122,13 @@ rss:
     - id: "kezike"
       name: "数字生命卡兹克"
       url: "https://wechat2rss.bestblogs.dev/feed/ff621c3e98d6ae6fceb3397e57441ffc6ea3c17f.xml"
-      max_age_days: 3             
+      max_age_days: 3       
+
+    - id: "feizhuming"
+      name: "非著名程序员"
+      url: "http://www.unrely.top:4100/feeds/MP_WXS_2394911827.atom"
+      max_age_days: 3 
+      
 
 
 

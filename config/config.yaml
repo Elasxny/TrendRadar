@@ -112,13 +112,17 @@ rss:
     - id: "not-die-bird"
       name: "不死鸟"
       url: "https://iui.su/feed/"
-      # max_age_days: 1               # 示例：只推送1天内的文章
+      max_age_days: 3               # 示例：只推送1天内的文章
 
     - id: "tech-heart"
       name: "机器之心"
       url: "https://wechat2rss.xlab.app/feed/51e92aad2728acdd1fda7314be32b16639353001.xml"
-      # max_age_days: 1               # 示例：只推送1天内的文章
+      max_age_days: 3          
 
+    - id: "kezike"
+      name: "数字生命卡兹克"
+      url: "https://wechat2rss.bestblogs.dev/feed/ff621c3e98d6ae6fceb3397e57441ffc6ea3c17f.xml"
+      max_age_days: 3             
 
 
 
